@@ -232,11 +232,11 @@ main {
     padding-top: 15px;
     color: rgb(0, 0, 0);
 }
-.inst a{
+.row .inst a{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-.inst p,.what p{
+.row .inst p,.row .what p{
     font-size: 1em;
     color: rgb(0, 0, 0);
 }
