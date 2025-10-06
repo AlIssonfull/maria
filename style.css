@@ -231,6 +231,9 @@ main {
     margin-left: 10px;
     padding-top: 15px;
 }
+.inst a{
+    text-decoration: none;
+}
 .inst p,.what p{
     font-size: 1em;
 }
