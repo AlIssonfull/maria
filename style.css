@@ -472,4 +472,25 @@ main {
     .lado2,.a{
         display: block;
     }
+
+    .inst img{
+    height: 40px;
+    width: 40px;
+    }
+    .inst{
+    margin-left: 10px;
+    padding-top: 15px;
+    color: rgb(0, 0, 0);
+    }
+    .row .inst a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    }
+    .row .inst p,.row .what p{
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    }
+    .inst h3,.what h3{
+    font-size: 1.5em;
+    }
 }
