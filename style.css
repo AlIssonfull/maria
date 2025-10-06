@@ -135,7 +135,7 @@ main {
     font-weight: 800;
 }
 .center3 .ela{
-    width: 80%;
+    width: 100%;
     font-weight: 500;
     line-height: 1;
     letter-spacing: 0.1rem;
@@ -456,5 +456,9 @@ main {
 
     .publ,.paix,.versa,.perf,.dif{
     width: 100%;
+    }
+
+    .lado2,.a{
+        display: block;
     }
 }
