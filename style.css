@@ -234,11 +234,11 @@ main {
 }
 .row .inst a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 .row .inst p,.row .what p{
     font-size: 1em;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 .inst h3,.what h3{
     font-size: 1.5em;
@@ -480,15 +480,15 @@ main {
     .inst{
     margin-left: 10px;
     padding-top: 15px;
-    color: rgb(0, 0, 0);
+    color: black;
     }
     .row .inst a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: black;
     }
     .row .inst p,.row .what p{
     font-size: 1em;
-    color: rgb(0, 0, 0);
+    color: black;
     }
     .inst h3,.what h3{
     font-size: 1.5em;
