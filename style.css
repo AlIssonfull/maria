@@ -450,6 +450,14 @@ main {
     grid-template-columns: 350px;
     }
 
+    .alb{
+        margin-top: 25px;
+    }
+    .alb p{
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
     .center3{
         margin-top: 0px;
     }
