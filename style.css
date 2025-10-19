@@ -114,9 +114,6 @@ main {
 .a,.b,.c,.e,.d,.f,.lado2,.lado3{
     display: none;
 }
-.a:hover,.b:hover,.c:hover,.e:hover,.d:hover,.f:hover{
-    transform: scale(1.2);
-}
 
 .pq{
     background-color: rgb(255, 255, 255);
@@ -208,6 +205,11 @@ main {
 .center3{
     margin-top: -150px;
     margin-bottom: 5px;
+}
+
+.img2{
+    display: none;
+
 }
 
 .contao h2{
@@ -448,7 +450,28 @@ main {
 }
 }
 
-@media (max-width:500px) {
+@media (max-width:1114px) and (min-width:800px) {
+    .img2{
+    display: block;
+    height: 400px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    }
+}
+
+@media (max-width:799px) and (min-width:500px) {
+    .img2{
+    display: block;
+    height: 400px;
+    width:80%;
+    margin: auto;
+    border-radius: 10px;
+    }
+}
+
+
+@media (max-width:499px) {
     .lado{
     grid-template-columns: 350px;
     }
@@ -472,12 +495,49 @@ main {
         margin-top: 0px;
     }
 
+    .card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    }
+
+    .hab{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    }
+    .hab2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    }
+    .hab3{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    }
+    .hab4{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    }
+    .hab5{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    }
+
     .publ,.paix,.versa,.perf,.dif{
     width: 100%;
     }
 
     .lado2,.a{
         display: block;
+    }
+
+    .img2{
+        display: block;
+        height: 250px;
+        width: 100%;
+        border-radius: 10px;
     }
 
     .inst img{
